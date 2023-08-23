@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+$primary-color: #f0db94;
+$accent-color: #fbe18f;
+
+@mixin rounded-m {
+  border-radius: 10px;
+}
+
+@mixin rounded-l {
+  border-radius: 30px;
+}
+
+@mixin text-primary {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
